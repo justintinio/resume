@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justin Resume</title>
     <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="body">
     <div class="introduction">
       <div class="icons-left"></div>
       <div>
@@ -28,14 +31,28 @@
       </p>
     </div>
     <div class="contacts">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+        <div class="contact-div">
+            <img class="contact-icon" src="/resources/mail-icon.png"/>
+            <a class="contact" href=mailto:"justin.tinio.ece@gmail.com"> justin.tinio.ece@gmail.com</a>
+        </div >
+        <div class="contact-div">
+            <img class="contact-icon" src="/resources/contact-icon.png"/>
+            <a class="contact-number"> <div>SA: +966552553268</div> <div>PH: +639063951958</div></a>
+        </div>
+        <div class="contact-div">
+            <img class="contact-icon" src="/resources/location-icon.png"/>
+            <a class="contact"> Al Khobar, KSA</a>
+        </div>
+        <div class="contact-div">
+            <img class="contact-icon" src="/resources/linkedin-icon.png"/>
+        <a class="contact" href="https://www.linkedin.com/in/justintinio/" target="_blank"> https://www.linkedin.com/in/justintinio/</a>
+         </div>
     </div>
     <div class="skills">
-      <h2>SKILLS</h2>
-      <ul>
+      <h2 >SKILLS</h2>
+     <div class="skills-list">
+        <div>
+          <ul>
         <li>Microsoft Office Proficient (Excel, Visio, etc.)</li>
         <li>AutoCAD Fundamentals.</li>
         <li>Extron Devices Familiarity.</li>
@@ -43,6 +60,10 @@
         <li>Crestron (SIMPL, SIMPL+, VTPRO)</li>
         <li>HTML5, CSS3, Javascript, Node.js</li>
         <li>BrightSign digital signage commissioning.</li>
+      </ul>
+      </div>
+      <div>
+        <ul>
         <li>Audio DSP configuration (Biamp, Shure, etc.)</li>
         <li>Network L2, L3 (Cisco, Extreme, Aruba, Ruijie)</li>
         <li>DANTE Certified (Familiar with other types)</li>
@@ -52,14 +73,19 @@
         <li>Able to design AV and Control Systems.</li>
         <li>Familiar with Cisco Video Conferencing.</li>
       </ul>
+      </div>
+    </div>
+
     </div>
     <div class="experiences">
-      <h2>EXPERIENCE</h2>
+      <h2 class="detail">EXPERIENCE</h2>
       <div class="experience-one">
-        <h3>AV System Engineer</h3>
-        <h4>ENPRO (Energy Project Support Company Ltd) / Deployed to ARAMCO</h4>
-        <h6>KSA ( February 2020 - Present )</h6>
-        <ul>
+        <h3 class="experience-title">AV System Engineer</h3>
+        <h4 class="experience-company">
+          ENPRO (Energy Project Support Company Ltd) / Deployed to ARAMCO
+        </h4>
+        <h6 class="experience-date">KSA ( February 2020 - Present )</h6>
+        <ul class="experience-tasks">
           <li>
             Alteration of the program of the current AV System as per
             requirement.
@@ -81,10 +107,10 @@
         </ul>
       </div>
       <div class="experience-two">
-        <h3>AV System Engineer</h3>
-        <h4>QORSYS</h4>
-        <h6>PH (October 2019 - February 2020)</h6>
-        <ul>
+        <h3 class="experience-title">AV System Engineer</h3>
+        <h4 class="experience-company">QORSYS</h4>
+        <h6 class="experience-date">PH (October 2019 - February 2020)</h6>
+        <ul class="experience-tasks">
           <li>Look up possible clients to buy QSC Products (Sales)</li>
           <li>Presenting a DEMO of how the QSC control system works.</li>
           <li>QSC AV Control Programming.</li>
@@ -95,10 +121,10 @@
         </ul>
       </div>
       <div class="experience-three">
-        <h3>ASSOCIATE DESIGN ENGINEER</h3>
-        <h4>ESCO Unified Solutions Inc</h4>
-        <h6>PH (April 2018 - September 2019)</h6>
-        <ul>
+        <h3 class="experience-title">ASSOCIATE DESIGN ENGINEER</h3>
+        <h4 class="experience-company">ESCO Unified Solutions Inc</h4>
+        <h6 class="experience-date">PH (April 2018 - September 2019)</h6>
+        <ul class="experience-tasks">
           <li>Drafting the AV Control devices’ layout using AutoCAD.</li>
           <li>
             Provide a line diagram using Microsoft Visio, and 3D design to show
