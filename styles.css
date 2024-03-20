@@ -11,7 +11,13 @@
 
 .my-name {
   color: #4c69ca;
-  border-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 10;
+}
+
+.skills-header {
+  margin-top: 10;
+  margin-bottom: 0;
 }
 
 .introduction {
@@ -36,6 +42,8 @@
 .my-title {
   display: flex;
   justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .description {
@@ -48,11 +56,12 @@
 
 .contacts {
   display: flex;
-  width: 700px;
+  width: 100%;
   justify-content: space-evenly;
   font-weight: 650;
-  border-style: solid;
-  border: 1px 5px 10px 20px;
+  border: 2px solid black;
+  border-left: 0px;
+  border-right: 0px;
 }
 
 .experiences {
@@ -90,6 +99,13 @@
 .experience-company {
   margin-top: 0;
   margin-bottom: 0;
+  color: black;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+}
+
+.experience-company:hover {
+  transform: scale(1.25);
 }
 
 .experience-date {
@@ -105,6 +121,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 0;
 }
 .skills {
   display: flex;
@@ -113,9 +130,17 @@
 }
 
 .contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 25px;
   height: 25px;
   padding: 10px 10px;
+  transition: transform 0.25s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.5);
 }
 
 .contact-div {
@@ -126,4 +151,15 @@
 
 .skills-list {
   display: flex;
+}
+
+.education-header {
+  margin-bottom: 0;
+}
+
+.school {
+  color: black;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+  padding: 10px 10px 10px 10px;
 }

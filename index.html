@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justin Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
@@ -32,24 +32,30 @@
     </div>
     <div class="contacts">
         <div class="contact-div">
-            <img class="contact-icon" src="mail-icon.png">
-            <a class="contact" href=mailto:"justin.tinio.ece@gmail.com"> justin.tinio.ece@gmail.com</a>
+            <a href=mailto:"justin.tinio.ece@gmail.com">
+              <img class="contact-icon" class="link" src="resources/mail-icon.png">
+            </a>
+            <a class="contact" class="link" href=mailto:"justin.tinio.ece@gmail.com"> justin.tinio.ece@gmail.com</a>
         </div >
         <div class="contact-div">
-            <img class="contact-icon" src="contact-icon.png">
+            <img class="contact-icon" src="resources/contact-icon.png">
             <a class="contact-number"> <div>SA: +966552553268</div> <div>PH: +639063951958</div></a>
         </div>
         <div class="contact-div">
-            <img class="contact-icon" src="location-icon.png">
-            <a class="contact"> Al Khobar, KSA</a>
+          <a href="https://maps.app.goo.gl/9vQQxHYdXVkKF7nX7" target="_blank">
+            <img class="contact-icon" src="resources/location-icon.png">
+          </a>
+            <a class="contact" href="https://maps.app.goo.gl/9vQQxHYdXVkKF7nX7" target="_blank"> Al Khobar, KSA</a>
         </div>
         <div class="contact-div">
-            <img class="contact-icon" src="linkedin-icon.png">
+          <a href="https://www.linkedin.com/in/justintinio/" target="_blank">
+            <img class="contact-icon" src="resources/linkedin-icon.png" >
+          </a>
         <a class="contact" href="https://www.linkedin.com/in/justintinio/" target="_blank"> https://www.linkedin.com/in/justintinio/</a>
          </div>
     </div>
     <div class="skills">
-      <h2 >SKILLS</h2>
+      <h2 class="skills-header">SKILLS</h2>
      <div class="skills-list">
         <div>
           <ul>
@@ -81,9 +87,13 @@
       <h2 class="detail">EXPERIENCE</h2>
       <div class="experience-one">
         <h3 class="experience-title">AV System Engineer</h3>
-        <h4 class="experience-company">
-          ENPRO (Energy Project Support Company Ltd) / Deployed to ARAMCO
-        </h4>
+        <div>
+        <a class="experience-company" class="link" href="https://itd.enpro.com.sa/" target="_blank">
+          ENPRO (Energy Project Support Company Ltd)</a> 
+          Deployed to 
+          <a class="experience-company" class="link" href="https://www.aramco.com/en" target="_blank"> ARAMCO
+        </a>
+        </div>
         <h6 class="experience-date">KSA ( February 2020 - Present )</h6>
         <ul class="experience-tasks">
           <li>
@@ -108,7 +118,7 @@
       </div>
       <div class="experience-two">
         <h3 class="experience-title">AV System Engineer</h3>
-        <h4 class="experience-company">QORSYS</h4>
+        <a class="experience-company" href="https://www.qorsys.ph/" target="_blank">QORSYS</a>
         <h6 class="experience-date">PH (October 2019 - February 2020)</h6>
         <ul class="experience-tasks">
           <li>Look up possible clients to buy QSC Products (Sales)</li>
@@ -122,7 +132,7 @@
       </div>
       <div class="experience-three">
         <h3 class="experience-title">ASSOCIATE DESIGN ENGINEER</h3>
-        <h4 class="experience-company">ESCO Unified Solutions Inc</h4>
+        <a class="experience-company" href="https://www.esco.com.sg/philippines" target="_blank">ESCO Unified Solutions Inc</a>
         <h6 class="experience-date">PH (April 2018 - September 2019)</h6>
         <ul class="experience-tasks">
           <li>Drafting the AV Control devices’ layout using AutoCAD.</li>
@@ -144,9 +154,9 @@
       </div>
     </div>
     <div class="education">
-      <h2>EDUCATION</h2>
+      <h2 class="education-header">EDUCATION</h2>
       <p>
-        BS Electronics and Communication Engineering | Bulacan State University
+        BS Electronics and Communication Engineering | <a class="school" href="https://www.bulsu.edu.ph/" target="_blank">Bulacan State University</a>
         | Batch 2017
       </p>
     </div>
